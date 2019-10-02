@@ -1,3 +1,4 @@
+package state.pattern;
 /*
 
 StateDesignPattern: An object whose behaviour changes as per the value of a field(state) in it.

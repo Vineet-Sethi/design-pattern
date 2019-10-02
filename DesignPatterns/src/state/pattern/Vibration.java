@@ -1,4 +1,4 @@
-package state;
+package state.pattern;
 
 public class Vibration implements MobileAlertState 
 {

@@ -20,4 +20,8 @@
 	3. Since every decorator can contain an object of type basic and every decorator itself is also a basic type object, we can pass one 
 	   decorated object into the protected field of another decorator. This way we can additively add enhancements across decorators to a 
 	   basic object dynamically.
+	   
+	   
+	   Decorators have the same super type as the object they decorate.
+	   Since decorators have same type as object, we can pass around decorated object instead of original.
 */

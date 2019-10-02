@@ -2,10 +2,10 @@
  BuilderDesignPattern: Creation of a complex object - remove the constructor and define construction contract.
 
  The requirement is to create a complex object(called product) by separating the construction from its representation. Separating 
- construction from its representation implies removing the constructor from the complex objects class(the representation). Now since the 
- constructor is removed we provide setters in the product class.
+ construction from its representation implies removing the construction process from the complex objects class(the representation).
+ The construction responsibility is given to another entity known as the builder. 
 
- Next we create a builder interface where we specify generic steps to create the product. It also provides a getter to return the product
+ So we create a builder interface where we specify generic steps to create the product. It also provides a getter to return the product
  object. Now concrete builders are implemented for this interface to build various representations of the product. These builders compose 
  the product in their constructor and assign it to the private reference of the product that they hold. This reference is then used to call
  the setters in the actual product class.

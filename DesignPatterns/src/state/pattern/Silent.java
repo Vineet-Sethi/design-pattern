@@ -1,4 +1,4 @@
-package state;
+package state.pattern;
 
 public class Silent implements MobileAlertState
 {

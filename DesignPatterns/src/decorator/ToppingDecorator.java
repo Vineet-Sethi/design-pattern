@@ -10,14 +10,4 @@ abstract class ToppingDecorator implements Pizza
 	{
 		tempPizza = newPizza;
 	}
-	
-	public String getDescription() 
-	{
-		return tempPizza.getDescription();
-	}
-
-	public double getCost() 
-	{
-		return tempPizza.getCost();
-	}
 }
